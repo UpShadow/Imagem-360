@@ -5,14 +5,10 @@
 }
 
 body {
-    background-color: #ddd;
+    background-color: #ebebeb;
 }
 
-.container {
-    width: 100%;
-}
-
-.container img {
+.container > img {
     width: 100%;
     -webkit-user-drag: none;
 }

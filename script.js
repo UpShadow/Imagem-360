@@ -21,7 +21,7 @@ const updateImage = (direction) => {
         else
             currentImage--;
     }
-
+    console.log(currentImage)
     image.src = `./images/${currentImage}.jpg`;
 }
 
